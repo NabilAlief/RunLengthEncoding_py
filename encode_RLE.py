@@ -16,3 +16,5 @@ def encode_message(text):
       encoded_string = encoded_string + str(count) + ch
       i = j + 1
    return encoded_string
+
+print(encode_message(text))
